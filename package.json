@@ -1,0 +1,55 @@
+{
+  "name": "homie",
+  "displayName": "Homie",
+  "description": "Very beautiful theme",
+  "version": "0.0.1",
+  "publisher": "Samuel Amoah",
+  "author": {
+    "name": "Samuel Amoah"
+  }, "repository": {
+    "type": "git",
+    "url": "https://github.com/lilyoo226/Homie-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lilyoo226/Homie-theme/issues"
+  },
+  "galleryBanner": {
+    "color": "#09131b",
+    "theme": "dark"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "lilyoo",
+    "samuel",
+    "amoah",
+    "new",
+    "codeSTACKr Themes",
+    "theme",
+    "Cobalt",
+    "Dracula",
+    "codercoder",
+    "vsCodeHero",
+    "freecodecamp"
+  ],
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Homie theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Homie-color-theme.json"
+      },
+      {
+        "label": "Homie theme (cold)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Homie-col.json"
+      }
+    ]
+  }
+}
